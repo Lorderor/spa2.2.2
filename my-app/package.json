@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "node": "^11.1.0",
@@ -22,7 +24,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "startnode":"node server/server.js"
+    "buildnode": "babel server/serv.js -d server/dist",
+    "startnode": "npm run buildnode && node server/dist/server/serv.js "
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-const axios = require('axios');
 import Tap from './Tap.js';
-import VariantScreen from './containers/VariantScreen.js';
+const axios = require('axios');
 
 class App extends Component {
   constructor() {
@@ -9,9 +8,10 @@ class App extends Component {
       this.state = {counter: 0, content: 'none'};
   }
 
-  apireq=()=>{
+  getReqFun(){
     console.log(axios.get('http://localhost:8000/api/books'));
-    return axios.get('http://localhost:8000/api/books')
+    let givReq=axios.get('http://localhost:8000/api/books');
+      return givReq
   };
 
 
@@ -34,8 +34,8 @@ class App extends Component {
 
             <button onClick={this.consLg.bind(this)}>zx</button>
             <button  onClick={this.handelCounterInc.bind(this)}>+1</button>
-            <button onClick={this.apiii.bind(this)}>gg</button>
-            <Tap apirequre={apireq} />
+            <button onClick={this.getReqFun().bind(this)}>gg</button>
+            <Tap apirequre={App.getReqFun()} />
         </div>
     );
   }
