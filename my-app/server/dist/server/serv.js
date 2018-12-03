@@ -11,14 +11,15 @@ var _cors2 = _interopRequireDefault(_cors);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var app = (0, _express2.default)();
-app.use((0, _cors2.default)());
+
 var jsons = require('./lib.json');
 // app.get('/',(req,res)=>{
 //     res.send();
 // });
+app.use((0, _cors2.default)());
 app.get('/api/books', function (req, res) {
-    console.log("get");
-    res.send(jsons);
+    res.json(jsons);
+    console.log('get');
 });
 app.get('/api/book/:id', function (req, res) {
     var book = jsons.find(function (book) {

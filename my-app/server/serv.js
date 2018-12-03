@@ -1,14 +1,15 @@
 import express from 'express';
 import cors from 'cors';
-const app=express();
-app.use(cors());
+let app=express();
+
 let jsons=require('./lib.json');
 // app.get('/',(req,res)=>{
 //     res.send();
 // });
-app.get('/api/books',(req,res) =>{
-    console.log("get");
-    res.send(jsons);
+app.use(cors());
+app.get('/api/books', function (req, res) {
+    res.json(jsons);
+    console.log('get')
 });
 app.get('/api/book/:id',(req,res)=>{
     let book=jsons.find(book => {
