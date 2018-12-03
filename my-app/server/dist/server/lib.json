@@ -1,17 +1,17 @@
 [
   {
     "id":"1",
-    "name":"Voyna I Mir",
-    "discription":"gavno"
+    "name":"Война и Мир",
+    "discription":"Речь идет о Войне и Мире"
   },
   {
     "id":"2",
-    "name":"Voyna I voyna",
-    "discription":"sredne"
+    "name":"Идиот",
+    "discription":"Речь идет о каком-то Идиоте"
   },
   {
     "id":"3",
-    "name":"Voyna I gavno",
-    "discription":"norm"
+    "name":"Фауст",
+    "discription":"Главное ни с чем не перепутать"
   }
 ]

@@ -6,14 +6,20 @@ class Tap extends Component {
      this.state={
          libData:[],
          valueInput:0,
-         currentId:{}
+         currentId:{},
+         showEl:false,
+         showElT:false
      };
  }
     onLoadClick=()=>{
         this.getReqFun(this.onLoad);
+        this.setState({showElT:false})
+        this.setState({showEl:true})
     };
     onLoadClickId=()=>{
         this.getReqIdFun(this.onLoad);
+        this.setState({showEl:false})
+        this.setState({showElT:true})
     };
     onLoadCallbackId=(data)=>{
           this.setState({currentId:data})
@@ -40,25 +46,34 @@ class Tap extends Component {
             .catch(error=>{console.log(error)
             });
     };
+
     render(){
+        const{id:idBook,name:nameBook, discription:discriptionBook} = this.state.currentId;
         return (
             <div>
                 <button onClick={this.onLoadClick}>Libs</button>
 
-                {this.state.libData.map((item)=> (
-                    <div>{item.name}</div>
-                    ))
-                }
+
 
                 <input type= "text" onChange={(evt)=> {
                     this.setState({valueInput: evt.target.value})
                 }}/>
-                    <div>{this.state.valueInput}</div>
-                <button onClick={this.onLoadClickId}>Lib id</button>
 
-                <div>
-                    сделать деструктизацию
-                </div>
+                <button onClick={this.onLoadClickId} >Lib id</button>
+
+                <div>{
+                    this.state.showElT &&
+                    <div>
+                        <p>Номер в каталоге:{idBook}</p>
+                        <p>Название:{nameBook}</p>
+                        <p>Описание:{discriptionBook}</p>
+
+                    </div>
+                }
+                    {this.state.showEl && this.state.libData.map((item)=> (
+                        <div>Номер: {item.id}|Название: {item.name}|Описание: {item.discription}</div>
+                    ))
+                    }</div>
             </div>
         );
     }
