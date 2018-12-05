@@ -25,7 +25,6 @@ class App extends Component {
         this.setState({currentId:data})
     };
     onLoadCallback=(data)=>{
-
         this.setState({libData:data});
     };
     getReqFun = () => {
@@ -46,37 +45,29 @@ class App extends Component {
             .catch(error=>{console.log(error)
             });
     };
-
     render(){
         const{id:idBook,name:nameBook, discription:discriptionBook} = this.state.currentId;
         return (
             <div>
                 <button onClick={this.onLoadClick}>Libs</button>
-
-
-
                 <input type= "text" onChange={(evt)=> {
                     this.setState({valueInput: evt.target.value})
                 }}/>
-
                 <button onClick={this.onLoadClickId} >Lib id</button>
-
-                <div>{
-                    this.state.showElT &&
+                <div>
+                    {this.state.showElT &&
                     <div>
                         <p>Номер в каталоге:{idBook}</p>
                         <p>Название:{nameBook}</p>
                         <p>Описание:{discriptionBook}</p>
 
-                    </div>
-                }
+                    </div>}
                     {this.state.showEl && this.state.libData.map((item)=> (
                         <div>Номер: {item.id}|Название: {item.name}|Описание: {item.discription}</div>
-                    ))
-                    }</div>
+                    ))}
+                </div>
             </div>
         );
     }
 }
-
 export default App;
