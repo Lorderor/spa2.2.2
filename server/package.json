@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "node": "^11.1.0"
+  },
+  "scripts": {
+    "buildnode": "babel serv.js -d dist",
+    "startnode": "npm run buildnode && node dist/serv.js "
+  }
+}
