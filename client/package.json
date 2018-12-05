@@ -23,9 +23,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "buildnode": "babel server/serv.js -d server/dist",
-    "startnode": "npm run buildnode && node server/dist/server/serv.js "
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"

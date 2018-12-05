@@ -2,10 +2,8 @@ import express from 'express';
 import cors from 'cors';
 let app=express();
 
-let jsons=require('./lib.json');
-// app.get('/',(req,res)=>{
-//     res.send();
-// });
+let jsons=require('././lib.json');
+
 app.use(cors());
 app.get('/api/books', function (req, res) {
     res.json(jsons);

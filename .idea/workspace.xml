@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88f8b480-cc09-44de-aa1f-3f917e0f7e13" name="Default" comment="Final">
-      <change afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+    <list default="true" id="88f8b480-cc09-44de-aa1f-3f917e0f7e13" name="Default" comment="ref">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/server/dist/server/lib.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/lib.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/server/dist/server/serv.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/server/serv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/server/serv.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/serv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Tap.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Tap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/srver/dist/server/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/client/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Tap.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Tap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dist/lib.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/lib.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dist/server/serv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/serv.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/serv.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,15 +71,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/package.json">
+        <entry file="file://$PROJECT_DIR$/client/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+            <state relative-caret-position="425">
+              <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -82,7 +98,7 @@
         </entry>
       </file>
       <file leaf-file-name=".babelrc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/.babelrc">
+        <entry file="file://$PROJECT_DIR$/client/.babelrc">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="1" />
@@ -96,18 +112,18 @@
         </entry>
       </file>
       <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/package-lock.json">
+        <entry file="file://$PROJECT_DIR$/client/package-lock.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="2890">
               <caret line="170" column="28" selection-start-line="170" selection-start-column="28" selection-end-line="170" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/App.js">
+        <entry file="file://$PROJECT_DIR$/client/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-302">
+            <state relative-caret-position="306">
               <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -119,8 +135,8 @@
       <file leaf-file-name="serv.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/serv.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -129,7 +145,7 @@
         </entry>
       </file>
       <file leaf-file-name="lib.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/dist/lib.json">
+        <entry file="file://$PROJECT_DIR$/server/lib.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
@@ -138,7 +154,7 @@
         </entry>
       </file>
       <file leaf-file-name="Tap.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/Tap.js">
+        <entry file="file://$PROJECT_DIR$/client/src/Tap.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -171,7 +187,6 @@
         <option value="$PROJECT_DIR$/my-app/server/server.js" />
         <option value="$PROJECT_DIR$/my-app/server/dist/server/serv.js" />
         <option value="$PROJECT_DIR$/my-app/.babelrc" />
-        <option value="$PROJECT_DIR$/my-app/package.json" />
         <option value="$PROJECT_DIR$/my-app/src/containers/VariantScreen.js" />
         <option value="$PROJECT_DIR$/my-app/src/index.js" />
         <option value="$PROJECT_DIR$/my-app/server/serv.js" />
@@ -182,6 +197,9 @@
         <option value="$PROJECT_DIR$/my-app/client/src/Tap.js" />
         <option value="$PROJECT_DIR$/my-app/client/src/App.js" />
         <option value="$PROJECT_DIR$/server/package.json" />
+        <option value="$PROJECT_DIR$/my-app/package.json" />
+        <option value="$PROJECT_DIR$/server/serv.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -192,12 +210,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/my-app/node_modules" />
+    <handled-path value="$PROJECT_DIR$/client/node_modules" />
     <handled-path value="$PROJECT_DIR$/server/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/my-app/package.json" />
+      <path value="$PROJECT_DIR$/client/package.json" />
       <path value="$PROJECT_DIR$/server/package.json" />
     </packageJsonPaths>
   </component>
@@ -213,7 +231,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,7 +241,7 @@
             <path>
               <item name="spa" type="b2602c69:ProjectViewProjectNode" />
               <item name="spa" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spa" type="b2602c69:ProjectViewProjectNode" />
@@ -241,6 +258,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,8 +270,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lorderor\Desktop\react\spa\server\dist" />
       <recent name="C:\Users\lorderor\Desktop\react\spa" />
+      <recent name="C:\Users\lorderor\Desktop\react\spa\server\dist" />
       <recent name="C:\Users\lorderor\Desktop\react\spa\my-app" />
       <recent name="C:\Users\lorderor\Desktop\react\spa\my-app\client" />
       <recent name="C:\Users\lorderor\Desktop\react\spa\my-app\server\dist\server" />
@@ -262,122 +280,6 @@
       <recent name="C:\Users\lorderor\Desktop\react\spa\server" />
       <recent name="C:\Users\lorderor\Desktop\react\spa\my-app\server" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/my-app/package-lock.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/my-app/server/dist/server/serv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/my-app/server/serv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/my-app/src/App.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/my-app/src/Tap.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/my-app/src/index.js</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -437,6 +339,7 @@
       <workItem from="1542878314956" duration="13160000" />
       <workItem from="1543240972131" duration="69000" />
       <workItem from="1543513083125" duration="11700000" />
+      <workItem from="1544051200549" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="Final">
       <created>1543860447536</created>
@@ -445,44 +348,40 @@
       <option name="project" value="LOCAL" />
       <updated>1543860447536</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ref">
+      <created>1544050973767</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544050973767</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54070000" />
+    <option name="totallyTimeSpent" value="54541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24920969" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3297062" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297062" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3297062" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3295082" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24925596" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3295082" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,20 +392,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final" />
+    <MESSAGE value="ref" />
+    <option name="LAST_COMMIT_MESSAGE" value="ref" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my-app/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/package.json">
+    <entry file="file://$PROJECT_DIR$/client/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
@@ -520,14 +410,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/.babelrc">
+    <entry file="file://$PROJECT_DIR$/client/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/client/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2890">
           <caret line="170" column="28" selection-start-line="170" selection-start-column="28" selection-end-line="170" selection-end-column="28" />
@@ -544,24 +434,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/Tap.js">
+    <entry file="file://$PROJECT_DIR$/client/src/Tap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/index.js">
+    <entry file="file://$PROJECT_DIR$/client/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App.js">
+    <entry file="file://$PROJECT_DIR$/client/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
@@ -575,11 +462,11 @@
     <entry file="file://$PROJECT_DIR$/package-lock.json" />
     <entry file="file://$PROJECT_DIR$/my-app/src/store/counterReduser.js" />
     <entry file="file://$PROJECT_DIR$/my-app/src/store/actions.js" />
-    <entry file="file://$PROJECT_DIR$/my-app/src/index.css">
+    <entry file="file://$PROJECT_DIR$/client/src/index.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/store/reducers.js" />
-    <entry file="file://$PROJECT_DIR$/my-app/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/client/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2890">
           <caret line="170" column="28" selection-start-line="170" selection-start-column="28" selection-end-line="170" selection-end-column="28" />
@@ -591,24 +478,21 @@
     <entry file="file://$PROJECT_DIR$/my-app/server/server.js" />
     <entry file="file://$PROJECT_DIR$/my-app/src/containers/VariantScreen.js" />
     <entry file="file://$PROJECT_DIR$/my-app/src/store/variant/reducers.js" />
-    <entry file="file://$PROJECT_DIR$/my-app/src/index.js">
+    <entry file="file://$PROJECT_DIR$/client/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/Tap.js">
+    <entry file="file://$PROJECT_DIR$/client/src/Tap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/dist/lib.json">
+    <entry file="file://$PROJECT_DIR$/server/lib.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
@@ -625,14 +509,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/package.json">
+    <entry file="file://$PROJECT_DIR$/client/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="27" column="29" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/.babelrc">
+    <entry file="file://$PROJECT_DIR$/client/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
@@ -646,7 +530,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App.js">
+    <entry file="file://$PROJECT_DIR$/client/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="3" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="26" selection-end-column="3" />
@@ -665,53 +549,33 @@
     <entry file="file://$PROJECT_DIR$/my-app/server/server.js" />
     <entry file="file://$PROJECT_DIR$/my-app/src/containers/VariantScreen.js" />
     <entry file="file://$PROJECT_DIR$/my-app/src/store/variant/reducers.js" />
-    <entry file="file://$PROJECT_DIR$/my-app/src/index.js">
+    <entry file="file://$PROJECT_DIR$/client/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/index.css">
+    <entry file="file://$PROJECT_DIR$/client/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/dist/lib.json">
+    <entry file="file://$PROJECT_DIR$/client/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="2890">
           <caret line="170" column="28" selection-start-line="170" selection-start-column="28" selection-end-line="170" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/serv.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/Tap.js">
+    <entry file="file://$PROJECT_DIR$/client/src/Tap.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App.js">
+    <entry file="file://$PROJECT_DIR$/client/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-302">
+        <state relative-caret-position="306">
           <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -726,14 +590,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/.babelrc">
+    <entry file="file://$PROJECT_DIR$/client/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="1" />
@@ -750,6 +607,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/lib.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/serv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
         </state>
       </provider>
     </entry>
