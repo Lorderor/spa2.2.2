@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 let app=express();
 
-let jsons=require('././lib.json');
+let jsons=require('../lib.json');
 
 app.use(cors());
 app.get('/api/books', function (req, res) {

@@ -13,13 +13,11 @@ class App extends Component {
     }
     onLoadClick=()=>{
         this.getReqFun();
-        this.setState({showElT:false});
-        this.setState({showEl:true})
+        this.setState({showElT:false,showEl:true});
     };
     onLoadClickId=()=>{
         this.getReqIdFun();
-        this.setState({showEl:false});
-        this.setState({showElT:true})
+        this.setState({showEl:false,showElT:true});
     };
     onLoadCallbackId=(data)=>{
         this.setState({currentId:data})
